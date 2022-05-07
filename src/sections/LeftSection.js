@@ -1,20 +1,20 @@
 import React from "react";
-const profile = require("../assets/desmond.png");
+import MenuSection from "../components/MenuSection";
+import MenuHeader from "../components/MenuHeader";
+import { menuItems, libraryItems } from "../data/menuData";
 
 export default function LeftSection() {
   return (
-    <div className="flex flex-col space-y-10 py-10 px-5">
-      <div>
-        <div className="h-16 w-16 rounded-2xl bg-gradient-to-l from-myMain to-myLightMain overflow-hidden shadow-lg shadow-myLightMain">
-          <img src={profile} alt="profile" />
-        </div>
-        <p className="text-gray-400 mt-3">
-          Hi!{" "}
-          <span className="block mt-1 leading-5 text-bold text-white text-xl">
-            Ahmad <br />
-            Frauzi
-          </span>
-        </p>
+    <div className="flex flex-col space-y-10 py-10">
+      {/* menu header */}
+      <MenuHeader />
+
+      {/*  */}
+      <MenuSection title="Menu" menuItems={menuItems} />
+      <MenuSection title="Library" menuItems={libraryItems} />
+
+      <div className=" w-[100%] px-5 mb-5">
+        <div className="bg-myMain rounded-xl w-full h-40"></div>
       </div>
     </div>
   );
