@@ -5,7 +5,7 @@ import { menuItems, libraryItems } from "../data/menuData";
 
 export default function LeftSection() {
   return (
-    <div className="flex flex-col space-y-10 py-10">
+    <div className="flex flex-col space-y-10 py-5">
       {/* menu header */}
       <MenuHeader />
 
