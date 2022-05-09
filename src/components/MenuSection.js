@@ -5,8 +5,14 @@ export default function MenuSection({ title, menuItems }) {
   return (
     <div className="flex flex-col space-y-3">
       <p className="text-white px-5">{title}</p>
-      {menuItems.map(({ Icon, title }, index) => (
-        <SingleMenu key={index} Icon={Icon} index={index} title={title} />
+      {menuItems.map((menuItem, index) => (
+        <SingleMenu
+          key={index}
+          Icon={menuItem.Icon}
+          index={index}
+          title={menuItem.title}
+          route={menuItem.route}
+        />
       ))}
     </div>
   );

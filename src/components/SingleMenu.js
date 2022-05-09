@@ -1,8 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function SingleMenu({ Icon, title, index }) {
+export default function SingleMenu({ Icon, title, route, index }) {
+  const navigate = useNavigate();
+
   const handleMenuClick = () => {
     console.log(`you clicked ${title}`);
+    navigate(route);
   };
 
   return (

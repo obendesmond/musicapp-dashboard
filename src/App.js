@@ -9,6 +9,7 @@ function App() {
           <LeftSection />
         </div>
         <div className="flex-[0.8]">
+          {/* section where we have route */}
           <RightSection />
         </div>
       </div>
