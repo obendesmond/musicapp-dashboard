@@ -6,6 +6,7 @@ module.exports = {
         myDark: "#161235",
         myMain: "#9E49F1",
         myLightMain: "#C784FB",
+        myGray: "#9CA38F",
       },
     },
     screens: {

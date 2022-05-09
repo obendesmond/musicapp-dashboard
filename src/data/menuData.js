@@ -1,11 +1,10 @@
-import { HiOutlineHome } from "react-icons/hi";
-import { BsSoundwave, BsFolder2Open, BsPerson } from "react-icons/bs";
+import { IoHome, IoTrendingUpOutline, IoAlbums } from "react-icons/io5";
+import { BsSoundwave, BsPerson } from "react-icons/bs";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
-import { TiChartLineOutline } from "react-icons/ti";
 
 export const menuItems = [
   {
-    Icon: HiOutlineHome,
+    Icon: IoHome,
     title: "Explore",
   },
   {
@@ -13,7 +12,7 @@ export const menuItems = [
     title: "Genres",
   },
   {
-    Icon: BsFolder2Open,
+    Icon: IoAlbums,
     title: "Albums",
   },
   {
@@ -28,11 +27,11 @@ export const libraryItems = [
     title: "Favourites",
   },
   {
-    Icon: TiChartLineOutline,
+    Icon: IoTrendingUpOutline,
     title: "Popular",
   },
   {
-    Icon: BsFolder2Open,
+    Icon: IoAlbums,
     title: "My Music",
   },
 ];

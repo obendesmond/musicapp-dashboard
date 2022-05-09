@@ -5,17 +5,13 @@ import { menuItems, libraryItems } from "../data/menuData";
 
 export default function LeftSection() {
   return (
-    <div className="flex flex-col space-y-10 py-5">
+    <div className="flex flex-col space-y-8 py-5">
       {/* menu header */}
       <MenuHeader />
 
       {/*  */}
       <MenuSection title="Menu" menuItems={menuItems} />
       <MenuSection title="Library" menuItems={libraryItems} />
-
-      <div className=" w-[100%] px-5 mb-5">
-        <div className="bg-myMain rounded-xl w-full h-40"></div>
-      </div>
     </div>
   );
 }

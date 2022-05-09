@@ -5,8 +5,6 @@ export default function SingleMenu({ Icon, title, index }) {
     console.log(`you clicked ${title}`);
   };
 
-  console.log(index);
-
   return (
     <div
       onClick={handleMenuClick}
