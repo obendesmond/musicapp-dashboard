@@ -16,7 +16,7 @@ export default function TopArtist() {
       <span className="flex flex-wrap space-x-1 items-center">
         <RiHeartsFill />
         <p>{followers}</p>
-        <p>Followers</p>
+        <p>Fls</p>
         <p>.</p>
         <BsSoundwave />
         <p>{plays}</p>
