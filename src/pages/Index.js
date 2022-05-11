@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Genres from "./Genres";
 
 import RightSectionHeader from "../components/RightSectionHeader";
 import { libraryItems, menuItems } from "../data/menuData";
