@@ -1,5 +1,11 @@
 import React from "react";
+import RightSectionHeader from "../components/RightSectionHeader";
 
 export default function Favourites() {
-  return <div>Favourites</div>;
+  return (
+    <>
+      {/* right section header */}
+      <RightSectionHeader title="Favourites" />
+    </>
+  );
 }

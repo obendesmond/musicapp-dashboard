@@ -14,7 +14,7 @@ export default function Ads() {
           anytime
         </p>
         <div className="">
-          <button className="bg-white shadow-xl shadow-myMain border-0 py-2 px-3 rounded-3xl text-myMain">
+          <button className="bg-white shadow-xl shadow-myMain border-0 py-2 px-3 rounded-3xl text-myMain outline-none">
             Explore Now
           </button>
         </div>

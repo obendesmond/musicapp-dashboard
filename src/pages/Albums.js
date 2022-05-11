@@ -1,5 +1,11 @@
 import React from "react";
+import RightSectionHeader from "../components/RightSectionHeader";
 
 export default function Albums() {
-  return <div>Albums</div>;
+  return (
+    <>
+      {/* right section header */}
+      <RightSectionHeader title="Albums" />
+    </>
+  );
 }

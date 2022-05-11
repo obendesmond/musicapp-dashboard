@@ -1,5 +1,11 @@
 import React from "react";
+import RightSectionHeader from "../components/RightSectionHeader";
 
 export default function Genres() {
-  return <div>Genres</div>;
+  return (
+    <>
+      {/* right section header */}
+      <RightSectionHeader title="Genres" />
+    </>
+  );
 }

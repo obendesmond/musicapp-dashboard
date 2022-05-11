@@ -1,10 +1,10 @@
 import React from "react";
 import { BsSearch, BsBell } from "react-icons/bs";
 
-export default function RightSectionHeader() {
+export default function RightSectionHeader({ title }) {
   return (
     <div className="sticky top-0 z-10 bg-white flex flex-row px-10 pt-5 pb-2 justify-between items-center">
-      <p className="flex-[0.7] text-3xl text-myDark font-bold">Home</p>
+      <p className="flex-[0.7] text-3xl text-myDark font-bold">{title}</p>
       <div className="flex-[0.3]  flex flex-row items-center space-x-5">
         <div className="relative block">
           <span className="absolute right-0 rounded-full w-[2px] h-[2px] p-1 bg-myMain"></span>

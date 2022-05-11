@@ -1,5 +1,11 @@
 import React from "react";
+import RightSectionHeader from "../components/RightSectionHeader";
 
 export default function Popular() {
-  return <div>Popular</div>;
+  return (
+    <>
+      {/* right section header */}
+      <RightSectionHeader title="Popular" />
+    </>
+  );
 }

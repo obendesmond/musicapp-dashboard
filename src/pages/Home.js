@@ -2,12 +2,15 @@ import React from "react";
 import Ads from "../components/Ads";
 import MusicPlayer from "../components/MusicPlayer";
 import Playlist from "../components/Playlist";
+import RightSectionHeader from "../components/RightSectionHeader";
 import TopArtist from "../components/TopArtist";
 import Trending from "../components/Trending";
 
 function Home() {
   return (
     <>
+      {/* right section header */}
+      <RightSectionHeader title="Home" />
       <div className=" flex flex-col space-x-10 items-start px-8 py-4 justify-between md:flex-row">
         <div className="flex-[0.6] relative flex flex-col space-y-4">
           <Ads />

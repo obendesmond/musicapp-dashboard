@@ -29,13 +29,13 @@ export default function MusicPlayer() {
         <p className="text-gray-400">3:30</p>
       </div>
       <div className="flex flex-row space-x-10 items-center text-gray-400 justify-center">
-        <IoRepeat />
+        <IoRepeat className="cursor-pointer" />
         <div className="flex flex-row space-x-5 text-white text-xl items-center justify-between">
           <BsFillSkipEndFill className="cursor-pointer" />
           <PlayBtn Icon={BsFillPauseFill} />
           <BsFillSkipStartFill className="cursor-pointer" />
         </div>
-        <BsShuffle />
+        <BsShuffle className="cursor-pointer" />
       </div>
     </div>
   );
