@@ -6,7 +6,8 @@ export default function SingleMenu({ Icon, title, route, index }) {
 
   const handleMenuClick = () => {
     console.log(`you clicked ${title}`);
-    navigate(route);
+    // navigate(route);
+    navigate("/in");
   };
 
   return (

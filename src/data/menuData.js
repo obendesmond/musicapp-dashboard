@@ -13,25 +13,25 @@ export const menuItems = [
   {
     Icon: IoHome,
     title: "Explore",
-    route: "/home",
+    route: "home",
     component: <Home />,
   },
   {
     Icon: BsSoundwave,
     title: "Genres",
-    route: "/genres",
+    route: "genres",
     component: <Genres />,
   },
   {
     Icon: IoAlbums,
     title: "Albums",
-    route: "/albums",
+    route: "albums",
     component: <Albums />,
   },
   {
     Icon: BsPerson,
     title: "Artist",
-    route: "/artist",
+    route: "artist",
     component: <Artist />,
   },
 ];
@@ -40,19 +40,19 @@ export const libraryItems = [
   {
     Icon: MdOutlineFavoriteBorder,
     title: "Favourites",
-    route: "/favourites",
+    route: "favourites",
     component: <Favourites />,
   },
   {
     Icon: IoTrendingUpOutline,
     title: "Popular",
-    route: "/popular",
+    route: "popular",
     component: <Popular />,
   },
   {
     Icon: IoAlbums,
     title: "My Music",
-    route: "/my-music",
+    route: "my-music",
     component: <MyMusic />,
   },
 ];

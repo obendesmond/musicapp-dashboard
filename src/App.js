@@ -1,25 +1,14 @@
-import LeftSection from "./sections/LeftSection";
-import RightSection from "./sections/RightSection";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Login from "./pages/auth/Login";
+import Index from "./sections/Index";
 
 function App() {
   return (
-    <>
-      <div className="hidden bg-myDark h-[auto] w-[100%] min-h-[100vh] md:flex">
-        <div className="flex-[0.2]">
-          <LeftSection />
-        </div>
-        <div className="flex-[0.8]">
-          {/* section where we have route */}
-          <RightSection />
-        </div>
-      </div>
-      <div className="block md:hidden">
-        <p className="text-myDark text-3xl">
-          This app is not yet responsive for this device, get an MD and above
-          (LG,XL...)
-        </p>
-      </div>
-    </>
+    <Routes>
+      <Route path="/" exact element={<Login />} />
+      <Route path="/in" element={<Index />} />
+    </Routes>
   );
 }
 
